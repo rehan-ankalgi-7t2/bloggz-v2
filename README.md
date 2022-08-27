@@ -40,7 +40,7 @@ npm install
 
 ## Home page design
 
-![home page-hero.png](design/home_page-hero.png)
+![home page-hero.png](design/home-page-hero.png)
 
 ![home page.png](design/home_page.png)
 
