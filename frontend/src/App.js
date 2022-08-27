@@ -5,6 +5,7 @@ import ComposeblogPage from './pages/ComposeblogPage'
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Blogs from './pages/Blogs';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <div>
             <Routes>
               <Route path='/' element={<HomePage/>} exact/>
+              <Route path='/blogs' element={<Blogs/>} exact/>
               <Route path='/compose' element={<ComposeblogPage/>}/>
             </Routes>
           </div>

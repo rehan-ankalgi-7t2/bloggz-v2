@@ -1,0 +1,27 @@
+.post {
+    margin-bottom: 40px;
+}
+
+.post__avatar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-flow: row nowrap;
+}
+
+.post__avatar img {
+    width: 40px;
+    margin-right: 16px;
+}
+
+.post span {
+    font-size: 12px;
+    background: grey;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+}
+
+.post hr {
+    margin-top: 40px;
+}

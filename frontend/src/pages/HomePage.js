@@ -7,13 +7,13 @@ const HomePage = () => {
     <>
       <section className='hero'>
         <div className='hero__text'>
-            <h1>Share your experiences with Blogz</h1>
-            <button>Read blogs</button>
+          <h1>Share your experiences with Blogz</h1>
+          <button><a href='/blogs'>Read blogs</a></button>
         </div>
         <div className='hero__img'>
-            <img src={heroImg} alt="" srcset=""/>
+          <img src={heroImg} alt="" srcset=""/>
         </div>
-    </section>
+      </section>
     </>
   )
 }
