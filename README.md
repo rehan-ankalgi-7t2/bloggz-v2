@@ -1,4 +1,5 @@
 # Bloggz
+![home page-hero.png](design/home-page-hero.png)
 
 Bloggz is a fullstack blog website built with MERN stack
 
@@ -39,8 +40,6 @@ npm install
 # Sneak Peak 👁
 
 ## Home page design
-
-![home page-hero.png](design/home-page-hero.png)
 
 ![home page.png](design/home_page.png)
 
