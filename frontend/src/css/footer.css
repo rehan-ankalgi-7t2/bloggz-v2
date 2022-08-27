@@ -1,0 +1,29 @@
+footer {
+    padding: 80px;
+    background-color: black;
+    color: white;
+    line-height: 1.6;
+  }
+  footer h1 {
+    margin-bottom: 40px;
+    font-style: italic;
+  }
+  footer .footer__info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  footer .footer__info div {
+    width: 550px;
+  }
+  footer .footer__info ul li {
+    list-style: none;
+  }
+  footer .footer__info ul li a {
+    color: white;
+    text-decoration: none;
+    transition: all cubic-bezier(0.08, 0.7, 0.69, 0.68) 0.4s;
+  }
+  footer .footer__info ul li a:hover {
+    color: #ff509c;
+  }

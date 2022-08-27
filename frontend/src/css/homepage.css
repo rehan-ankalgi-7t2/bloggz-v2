@@ -1,0 +1,38 @@
+.hero {
+    height: 640px;
+    background-color: #0019F6;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 120px 0 120px;
+}
+/* 
+.hero__text {
+    border: 2px solid red;
+} */
+
+.hero__text h1 {
+font-size: 80px;
+margin-top: 0;
+}
+
+.hero__text button {
+    padding: 16px 48px;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    box-shadow: none;
+    transition: all cubic-bezier(.08,.7,.69,.68) 0.3s;
+}
+
+.hero__text button:hover {
+    box-shadow: 0px 8px 0px #ff509c;
+}
+
+.hero__img img {
+height: 500px;
+}

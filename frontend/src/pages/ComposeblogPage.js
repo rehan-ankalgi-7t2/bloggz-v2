@@ -2,7 +2,9 @@ import React from 'react'
 
 const ComposeblogPage = () => {
   return (
-    <div>ComposeblogPage</div>
+    <>
+      <h1>ComposeblogPage</h1>
+    </>
   )
 }
 
