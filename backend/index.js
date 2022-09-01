@@ -59,6 +59,16 @@ app.get("/posts", (req, res) => {
     })
 })
 
+app.get("/posts/:id", (req, res) => {
+    const resPost = Post.findById(req.params.id)
+    if(resPost){
+        res.json(resPost)
+        console.log(resPost)
+    } else {
+        console.error("post not found")
+    }
+})
+
 const PORT = 5000
 
 app.listen(PORT, () => {

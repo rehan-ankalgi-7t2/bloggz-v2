@@ -1,7 +1,6 @@
 import {React} from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import HomePage from './pages/HomePage'
-import ComposeblogPage from './pages/ComposeblogPage'
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -17,7 +16,6 @@ function App() {
             <Routes>
               <Route path='/' element={<HomePage/>} exact/>
               <Route path='/blogs' element={<Blogs/>} exact/>
-              <Route path='/compose' element={<ComposeblogPage/>}/>
             </Routes>
           </div>
         </main>
