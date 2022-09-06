@@ -41,7 +41,6 @@
   }
   header nav ul li button {
     height: 40px;
-    width: 120px;
     color: black;
     background-color: white;
     outline: none;
@@ -56,5 +55,6 @@
   header nav ul li button a {
     color: black;
     font-weight: bold;
+    word-wrap: normal;
     font-family: 'Montserrat', sans-serif;
   }

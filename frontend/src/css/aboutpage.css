@@ -1,0 +1,11 @@
+.about {
+    margin: 120px;
+}
+
+.about p{
+    line-height: 1.6;
+}
+
+.about h1 {
+    font-size: 80px;
+}

@@ -38,10 +38,10 @@ const post3 = new Post({
 const defaultPosts = [post1, post2, post3]
 
 app.get("/", (req, res) => {
-    res.sendFile(__dirname + '/index.html')
+    res.send("API is running")
 })
 
-app.get("/posts", (req, res) => {
+app.get("/api/posts", (req, res) => {
     // res.sendFile(__dirname + "/index.html")
     Post.find((err, posts) => {
         if(posts.length === 0){
@@ -59,7 +59,7 @@ app.get("/posts", (req, res) => {
     })
 })
 
-app.get("/posts/:id", (req, res) => {
+app.get("/api/posts:id", (req, res) => {
     const resPost = Post.findById(req.params.id)
     if(resPost){
         res.json(resPost)

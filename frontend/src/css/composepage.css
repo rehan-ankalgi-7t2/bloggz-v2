@@ -1,0 +1,50 @@
+.compose {
+    margin: 120px;
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column wrap;
+}
+
+.compose h1 {
+    margin: 120px;
+}
+
+.compose input {
+    width: 100%;
+    padding: 16px 16px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    margin-bottom: 24px;
+    border: 3px solid black;
+}
+
+.compose input::placeholder {
+    font-size: 14px;
+}
+
+.compose textarea {
+    resize: vertical;
+    width: 100%;
+    border: 3px solid black;
+    border-radius: 24px;
+    padding: 24px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+button {
+    background: black;
+    color: white;
+    height: 56px;
+    padding: 0px 48px;
+    font-family: 'Montserrat' sans-serif;
+    text-transform: uppercase;
+    border-radius: 40px;
+    box-shadow: none;
+} 
+
+button:hover {
+    box-shadow: 8px 8px 0px #0019F6;
+}

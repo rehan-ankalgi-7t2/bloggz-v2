@@ -14,7 +14,7 @@ const Blogs = () => {
     const imgArr = [blush, kiss, ok, thanks, thumbsUp]
 
     useEffect(() => {
-        fetch('/posts')
+        fetch('/api/posts')
         .then(res => res.json())
         .then(response => {
         setPosts(response)

@@ -12,7 +12,7 @@ const Post = ({ post, imgArr }) => {
               <img src={imgArr[Math.floor(Math.random()*imgArr.length)]} alt=''/>
               <p>{post.author}</p>
             </div>
-            <h2><Link to={`/blogs/${post._id}`}>{post.title}</Link></h2>
+            <h2><Link to={`/posts:${post._id}`}>{post.title}</Link></h2>
             <p>{post.content}</p>
             <span>{post.publicationDate}</span>
             <hr/>
