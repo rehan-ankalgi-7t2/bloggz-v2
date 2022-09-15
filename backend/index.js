@@ -59,7 +59,7 @@ app.get("/api/posts", (req, res) => {
     })
 })
 
-app.get("/api/posts:id", (req, res) => {
+app.get("/api/posts/:id", (req, res) => {
     const resPost = Post.findById(req.params.id)
     if(resPost){
         res.json(resPost)

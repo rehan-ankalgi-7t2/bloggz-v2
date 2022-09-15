@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 
 
-const BlogPage = (props) => {
+const BlogPage = () => {
 
   const { id } = useParams()
 
@@ -17,7 +17,11 @@ const BlogPage = (props) => {
 
   return (
     <>
-      <div>{post}</div>
+      <p>{post.author}</p>
+      <p>{post.title}</p>
+      <p>{post.content}</p>
+      <p>{post.publicationDate}</p>
+      <p>{`Blog details - ${id}`}</p>
     </>
   )
 }
